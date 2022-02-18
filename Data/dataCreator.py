@@ -8,7 +8,6 @@ def create_Passwords(count,digit_count):
 
     for a in listOfCount:
         password=""
-        print(a)
         for j in range(0,digit_count):
             k=random.randint(0,9)
             password = password + str(k)
